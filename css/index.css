@@ -1,0 +1,101 @@
+*{
+margin:0px auto;
+font-family:calibri light;
+}
+
+.top-col{
+	height:auto;
+	color:white;
+	font-size:14px;
+	background:#293f51;
+}
+.top-bar{
+	width:170px;
+	display:inline-block;
+	height:4px;
+	background:#648880;
+	margin-left:15%;
+}
+.custom-row{
+	width:71.7%;
+	margin:0px auto;
+	height:auto;
+}
+.col-left{
+	line-height:100%;
+	font-size:50px;
+	color:#e9ebed;
+}
+.col-right{
+	text-align:right;
+	margin-top:10px;
+	font-family:calibri;
+}
+.upper-row-header{
+	font-size:20px;
+	color:#648880;
+
+}
+.lower-row-header{
+	margin-top:15px;
+	display:inline-block;
+	font-size:17px;
+	font-weight:bold;
+	color:#e9ebed;
+}
+.middle-row{
+	margin:6% auto;
+	margin-bottom:4%;
+	text-align:center;
+	width:60%;
+}
+.middle-button{
+	padding:10px 15px 10px 15px;
+	font-size:15px;
+	border:1px solid white;
+	margin-top:10px;
+	background:none;
+	color:white;
+	border-radius:5px;
+}
+
+/*middle section css start from here*/
+.pic-heading{
+	font-size:14px;
+	font-weight:bold;
+	padding-left:2px;
+	color:#999;
+}
+.img-class{
+	margin-top:5px;
+	width:80%;
+	width:100%;
+	margin-bottom:10px;
+}
+.img-desc{
+	display:inline-block;
+	margin-top:15px;
+	font-size:15px;
+	color:#999;
+	font-weight:bold;
+}
+/*Footer css start from here*/
+
+.footer-col{
+	height:auto;
+	background:#293f51;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:0px auto;
+	margin-top:50px;
+}
+
+/* for small resolution devices */
+@media only screen and (max-width: 575px) {
+.col-right{
+	text-align:center;}
+.col-left{
+	text-align:center;}
+.top-bar{
+	margin:0px auto;}
+}
